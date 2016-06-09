@@ -15,7 +15,7 @@ import java.util.Date;
 @RestController
 public class HelloService {
 
-    RestTemplate restTemplate;
+    RestTemplate restTemplate = new RestTemplate();
 
     @Autowired
     private LoadBalancerClient loadBalancerClient;
