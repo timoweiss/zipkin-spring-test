@@ -1,0 +1,22 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# SBT files #
+.settings
+.classpath
+.project
+.metadata
+servers
+
+# Spring files #
+**/.springBeans
+
+.mvn
+mvnw
+mvnw.cmd
+bin
+target
