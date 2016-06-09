@@ -1,3 +1,6 @@
+.idea/
+eureka/
+
 *.class
 
 # Package Files #
